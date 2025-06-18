@@ -1,3 +1,15 @@
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 @font-face {
     font-family: "OTEnjoystoriesBA";
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
@@ -32,4 +44,45 @@
             format("woff"),
         url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
             format("opentype");
+}
+
+body {
+    font-family: "Noto Sans KR", "GmarketSansMedium", "GmarketSansBold",
+        "OTEnjoystoriesBA", sans-serif;
+    font-size: 12px;
+    background-color: #5b2386;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 1920px;
+    height: 1937px;
+}
+.title {
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 265px;
+}
+.title img {
+    display: flex;
+    position: absolute;
+    width: 564px;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+
+.title-img {
+    position: absolute;
+    align-self: center;
+}
+.clock-img {
+    position: absolute;
+    align-self: center;
 }
