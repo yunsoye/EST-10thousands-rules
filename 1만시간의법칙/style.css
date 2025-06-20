@@ -151,6 +151,14 @@ q {
     align-items: center;
 }
 
+.calc-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .calc-section input {
     color: #babcbe;
 }
@@ -173,7 +181,10 @@ q {
     padding-left: 40px;
 }
 .click-btn {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    gap: 7px;
 }
 .submit-btn {
     font-family: "GmarketSansBold", sans-serif;
@@ -181,31 +192,26 @@ q {
     color: #5b2386;
     font-size: 2rem;
     font-weight: 500;
-    width: 100%;
+    width: 567px;
     height: 64px;
     border-radius: 12px;
-    padding: 0 38px;
+    /* padding: 0 38px; */
     text-align: center;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 32px;
 }
-
-.submit-btn::after {
-    content: "";
-    position: absolute;
+.click-img {
     width: 64px;
     height: 72px;
-    background-image: url("./img/img/click.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 1087px;
-    left: 1251px;
-    /* background-size: contain; */
+    object-fit: contain;
+    float: right;
 }
-.click-img .result-section {
-    margin-top: 32px;
+
+.result {
+    margin-top: 142px;
+    gap: 12px;
+}
+
+.result-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +232,7 @@ q {
 }
 
 .modal-btn {
-    margin-top: 32px;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,16 +257,12 @@ q {
     background-color: #ffffff;
 }
 
-.you {
-    padding: 20px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 60px auto;
+    margin: 120px auto 106px;
     gap: 20px;
 }
 
@@ -276,4 +278,5 @@ footer p {
     font-weight: 400;
     color: #ffffff;
     line-height: 100%;
+    text-align: center;
 }
