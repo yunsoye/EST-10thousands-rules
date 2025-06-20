@@ -129,7 +129,6 @@ q {
     font-size: 1.5rem;
     font-weight: 400;
     color: #ffffff;
-    position: absolute;
     text-align: center;
     line-height: 100%;
 }
@@ -174,6 +173,7 @@ q {
     padding-left: 40px;
 }
 .click-btn {
+    justify-content: space-between;
 }
 .submit-btn {
     font-family: "GmarketSansBold", sans-serif;
@@ -192,7 +192,19 @@ q {
     margin-top: 32px;
 }
 
-.result-section {
+.submit-btn::after {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 72px;
+    background-image: url("./img/img/click.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 1087px;
+    left: 1251px;
+    /* background-size: contain; */
+}
+.click-img .result-section {
     margin-top: 32px;
     display: flex;
     flex-direction: column;
