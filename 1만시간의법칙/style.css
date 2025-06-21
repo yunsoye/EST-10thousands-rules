@@ -120,6 +120,7 @@ q {
     position: absolute;
     width: 485px;
     height: 85px;
+    top: 20px;
     object-fit: contain;
 }
 
@@ -163,8 +164,14 @@ q {
 }
 
 .calc-section p {
-    gap: 0, 20px;
-    margin-top: 32px;
+    gap: 20px;
+}
+
+.will {
+    margin-bottom: 20px;
+}
+.you {
+    margin-bottom: 20px;
 }
 
 .work,
@@ -182,6 +189,7 @@ q {
     flex-direction: row;
     margin-top: 120px;
     gap: 7px;
+    position: relative;
 }
 .submit-btn {
     font-family: "GmarketSansBold", sans-serif;
@@ -192,15 +200,16 @@ q {
     width: 567px;
     height: 64px;
     border-radius: 12px;
-    /* padding: 0 38px; */
     text-align: center;
     justify-content: center;
 }
 .click-img {
     width: 64px;
     height: 72px;
-    object-fit: contain;
-    float: right;
+    right: 70px;
+    position: absolute;
+    right: -71px;
+    top: 22px;
 }
 
 .result {
