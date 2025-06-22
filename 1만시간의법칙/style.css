@@ -287,3 +287,17 @@ footer p {
     text-align: center;
     gap: 10px;
 }
+
+dialog {
+    width: 800;
+    height: 816;
+    top: 1121px;
+    left: 2020px;
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-right: 146px;
+    padding-bottom: 80px;
+    padding-left: 146px;
+    gap: 10px;
+    background-color: #ffffff;
+}
