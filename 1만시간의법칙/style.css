@@ -52,6 +52,7 @@ html {
 
 body {
     background-color: #5b2386;
+    width: 100%;
 }
 
 .title-section {
@@ -104,8 +105,6 @@ q {
 .rule {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 80px;
     gap: 20px;
     position: relative;
@@ -199,23 +198,19 @@ q {
     justify-content: center;
 }
 .click-img {
-    width: 64px;
-    height: 72px;
-    right: 70px;
     position: absolute;
     right: -71px;
     top: 22px;
-}
-
-.result {
-    margin-top: 142px;
-    gap: 12px;
 }
 
 .result-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.result {
+    margin-top: 142px;
 }
 
 .result-section p {
@@ -285,13 +280,13 @@ footer p {
 
 /* 모달창 */
 .madal {
-    visibility: hidden;
     width: 800px;
     height: 816px;
     border-radius: 20px;
     padding: 80px 146px;
     background-color: #ffffff;
-    display: flex;
+    /* 노출안되게 설정 */
+    display: none;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
