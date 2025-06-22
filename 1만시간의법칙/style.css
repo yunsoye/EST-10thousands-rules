@@ -51,8 +51,6 @@ html {
 }
 
 body {
-    font-family: "Noto Sans KR", "GmarketSansMedium", "GmarketSansBold",
-        "OTEnjoystoriesBA", sans-serif;
     background-color: #5b2386;
 }
 
@@ -83,9 +81,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 52px;
-}
-
-.intro-section {
 }
 
 q {
@@ -288,8 +283,9 @@ footer p {
     gap: 10px;
 }
 
-/* 하얀배경 */
+/* 모달창 */
 .madal {
+    visibility: hidden;
     width: 800px;
     height: 816px;
     border-radius: 20px;
@@ -318,12 +314,10 @@ footer p {
     gap: 4px;
 }
 
-/* 화이팅 */
 .madal-text p {
     font-size: 8rem;
 }
 
-/* 꿈응원 */
 .madal-text span {
     font-size: 3rem;
 }
