@@ -133,7 +133,7 @@ q {
 }
 
 .calc-section p,
-.calc-section input,
+.calc-box input,
 .result-section p {
     font-family: "GmarketSansMedium", sans-serif;
     font-size: 2rem;
@@ -153,29 +153,23 @@ q {
     margin-top: 100px;
 }
 
-.calc-section input {
-    color: #babcbe;
-}
-
 .calc-section p {
     gap: 20px;
 }
 
-.will {
-    margin-bottom: 20px;
-}
-.you {
+.result-text,
+.calc-content {
     margin-bottom: 20px;
 }
 
-.work,
-.hour {
+.calc-box input {
     width: 228px;
     height: 56px;
     gap: 10px;
     border-style: none;
     border-radius: 8px;
     padding: 16px 40px;
+    color: #babcbe;
 }
 
 .click-btn {
@@ -209,19 +203,20 @@ q {
     align-items: center;
 }
 
-.result {
-    margin-top: 142px;
-}
-
-.result-section p {
+.result-box {
     font-family: "GmarketSansMedium", sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: #ffffff;
     text-align: center;
+    margin-top: 142px;
 }
 
-.result-section span {
+.result-box p {
+    gap: 20px;
+}
+
+.result-box span {
     font-family: "GmarketSansBold", sans-serif;
     font-size: 6rem;
     font-weight: 700;
