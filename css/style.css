@@ -59,7 +59,6 @@ body {
     width: 564px;
     height: 265px;
     margin: 10rem auto 0;
-    position: relative;
     background: url("../img/clock.png") center/contain no-repeat;
 }
 
