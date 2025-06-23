@@ -297,23 +297,23 @@ footer p {
 }
 
 /* 모달 텍스트 */
-.madal-text {
+.modal-text {
     font-family: "OTEnjoystoriesBA", sans-serif;
     font-weight: 700;
     color: #5b2386;
     gap: 4px;
 }
 
-.madal-text p {
+.modal-text p {
     font-size: 8rem;
 }
 
-.madal-text span {
+.modal-text span {
     font-size: 3rem;
 }
 
 /* 이미지와 버튼 묶음 */
-.madal-content {
+.modal-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,7 +321,7 @@ footer p {
     margin-top: 40px;
 }
 
-.madal-content img {
+.modal-content img {
     width: 438px;
     height: 342px;
     object-fit: contain;
